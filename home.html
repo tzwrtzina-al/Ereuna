@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Έρευνα για τη χρήση προφυλακτικών</title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Βοήθησέ μας να κατανοήσουμε τη χρήση των προφυλακτικών!</h1>
+        <p>Συμπλήρωσε το ανώνυμο ερωτηματολόγιο και βοήθησε την έρευνα για τα ΣΜΝ.</p>
+        <a href="https://redcap.uoa.gr/surveys/?s=CT9WHRRCLHH47W4D" class="cta-button" target="_blank">Συμπλήρωσε το Ερωτηματολόγιο</a>
+        <p class="counter">Ήδη <span id="participants">117</span> άτομα συμμετείχαν!</p>
+    </div>
+    <script>
+        // Προσομοίωση live μετρητή συμμετοχών
+        let count = 117;
+        setInterval(() => {
+            count += Math.floor(Math.random() * 3); // Προσθέτει τυχαία συμμετοχές
+            document.getElementById('participants').innerText = count;
+        }, 5000);
+    </script>
+</body>
+</html>
