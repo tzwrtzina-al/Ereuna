@@ -46,3 +46,12 @@ p {
     font-weight: bold;
     color: #444;
 }
+
+.header-image {
+    width: 60%; /* Κάνει την εικόνα να γεμίζει το container */
+    max-width: 500px; /* Περιορίζει το μέγεθος */
+    border-radius: 10px; /* Στρογγυλεμένες γωνίες */
+    margin-bottom: 20px; /* Απόσταση από το υπόλοιπο περιεχόμενο */
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ελαφριά σκιά */
+}
